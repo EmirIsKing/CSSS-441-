@@ -1,5 +1,5 @@
 {
-  "version": "2.6.2",
+  "version": "2.4.0",
   "summary": {
     "title": "E2EE Messenger",
     "owner": "",
@@ -15,7 +15,7 @@
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "version": "2.6.2",
+        "version": "2.4.0",
         "cells": [
           {
             "position": {
@@ -40,17 +40,7 @@
               "name": "Trust boundary 1: device",
               "description": "",
               "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "containedElements": [
-                "f4635c11-b6bf-4a4f-b75d-1cf5a68d70ae",
-                "7ce62533-a6ef-439d-b584-6aa1c5538a77"
-              ],
-              "crossingFlows": [
-                "fa16d64b-a6dd-4631-95a8-e24136708dec",
-                "98dccdff-ec57-44f6-9f13-8e438656b75c",
-                "88f6abc7-3918-4a1d-9606-53291fa95d0b",
-                "e949e894-9977-409f-8aad-536121454441"
-              ]
+              "hasOpenThreats": false
             }
           },
           {
@@ -76,24 +66,13 @@
               "name": "Trust boundary 2: server",
               "description": "",
               "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "containedElements": [
-                "719d15e5-8c1d-4501-83ee-96f90902efe2",
-                "612da517-05e3-4d40-8306-1e5f015e96de",
-                "a58b0ac2-01f6-4258-9f5a-6d73edc4d8cf",
-                "f8195c2c-d224-4724-98ad-d5ef7c101f84"
-              ],
-              "crossingFlows": [
-                "98dccdff-ec57-44f6-9f13-8e438656b75c",
-                "88f6abc7-3918-4a1d-9606-53291fa95d0b",
-                "e949e894-9977-409f-8aad-536121454441"
-              ]
+              "hasOpenThreats": false
             }
           },
           {
             "position": {
               "x": 20,
-              "y": 510
+              "y": 325
             },
             "size": {
               "width": 120,
@@ -112,88 +91,6 @@
             "visible": true,
             "shape": "actor",
             "zIndex": 1,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "eb2502f4-4662-434c-a66d-ab2fba614ddb"
-                },
-                {
-                  "group": "right",
-                  "id": "a3d9405d-82a3-4021-905a-d6f4259a719d"
-                },
-                {
-                  "group": "bottom",
-                  "id": "846af6ec-6da8-4ad2-a03c-3126a044dab3"
-                },
-                {
-                  "group": "left",
-                  "id": "d6352099-7ba4-4e8e-a62f-b0f39e012bac"
-                }
-              ]
-            },
             "id": "8db1eb52-5669-4bc6-a7cf-98d15b3b135d",
             "data": {
               "type": "tm.Actor",
@@ -228,88 +125,6 @@
             "visible": true,
             "shape": "process",
             "zIndex": 1,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "973930d8-23bd-4271-ad43-12c1fb8a2cd8"
-                },
-                {
-                  "group": "right",
-                  "id": "366dfdb4-70b6-4d28-90eb-5518087a96d7"
-                },
-                {
-                  "group": "bottom",
-                  "id": "0317f0c5-3c32-40d8-b176-6ed21a7e608d"
-                },
-                {
-                  "group": "left",
-                  "id": "19abdc3b-1590-43cf-a3a0-1d6bde72d1b0"
-                }
-              ]
-            },
             "id": "f4635c11-b6bf-4a4f-b75d-1cf5a68d70ae",
             "data": {
               "type": "tm.Process",
@@ -317,10 +132,50 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isTrustBoundary": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "133728a1-956a-4d9f-9424-17bf4850d07c",
+                  "title": "Plaintext leaks via logs, notifications or backups",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Message text ends up in logs, push payloads or device backups. Rating: likelihood 2 x impact 3 = 6 (High). Likelihood 2: common developer mistake. Impact 3: bypasses all encryption.",
+                  "mitigation": "No content in push payloads, log scrubbing, exclude the database from backups, and grep dumps for plaintext in tests.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                },
+                {
+                  "id": "8c956216-38b0-433e-a8d5-11eb6d7fbb7a",
+                  "title": "Compromised identity key allows impersonation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "A stolen identity key lets an attacker act as the user and sign prekeys. Rating: likelihood 1 x impact 3 = 3 (Medium). Likelihood 1: key is stored in hardware-backed storage. Impact 3: full account impersonation.",
+                  "mitigation": "Keystore or non-extractable keys, re-registration with a visible key-change warning to contacts.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
+                },
+                {
+                  "id": "af11ed9a-180e-4626-abee-334d0c4920bb",
+                  "title": "Disappearing messages bypassed",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Information disclosure",
+                  "description": "Screenshots, backups or forwarding keep messages past their timer. Rating: likelihood 2 x impact 1 = 2 (Low). Likelihood 2: easy for a recipient. Impact 1: limited to messages the recipient already saw.",
+                  "mitigation": "Honor timers locally, block screenshots where possible, and state the limit in the report.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -337,10 +192,12 @@
                 "text": "Local DB (SQLCipher)"
               },
               "topLine": {
+                "stroke": "#333333",
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
+                "stroke": "#333333",
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
@@ -348,88 +205,6 @@
             "visible": true,
             "shape": "store",
             "zIndex": 1,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "6fe6d79e-b27f-4ed1-a567-d07ebcff3d79"
-                },
-                {
-                  "group": "right",
-                  "id": "2f464ff4-b4a9-4787-877f-6acb8c6fac35"
-                },
-                {
-                  "group": "bottom",
-                  "id": "bce6a28c-4d11-451e-b1cc-b3ac569ad0a8"
-                },
-                {
-                  "group": "left",
-                  "id": "3a4c9fe5-541a-4c0d-b991-fa7d9f517234"
-                }
-              ]
-            },
             "id": "7ce62533-a6ef-439d-b584-6aa1c5538a77",
             "data": {
               "type": "tm.Store",
@@ -469,88 +244,6 @@
             "visible": true,
             "shape": "process",
             "zIndex": 1,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "d629824e-d3e7-4978-b8b0-f21ac90a6fb2"
-                },
-                {
-                  "group": "right",
-                  "id": "5ae43bb5-be9e-4889-b75c-df853b64f918"
-                },
-                {
-                  "group": "bottom",
-                  "id": "6517fdda-4291-4c0a-914c-9c8f408e87e6"
-                },
-                {
-                  "group": "left",
-                  "id": "be7bddd9-7ff8-46e0-b148-6c66f1570d3c"
-                }
-              ]
-            },
             "id": "719d15e5-8c1d-4501-83ee-96f90902efe2",
             "data": {
               "type": "tm.Process",
@@ -558,10 +251,50 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isTrustBoundary": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "17d90b0e-6ac0-43cf-a956-01962b84d36c",
+                  "title": "User denies sending a message",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Repudiation",
+                  "description": "A sender disputes authorship, and the server cannot prove it. Rating: likelihood 1 x impact 1 = 1 (Low). Likelihood 1: rare in a private messenger. Impact 1: deniability is a Signal design feature.",
+                  "mitigation": "Document as accepted residual risk.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                },
+                {
+                  "id": "cc1590d2-1a2b-4c5d-b508-5156740557ef",
+                  "title": "Server learns who talks to whom, when and how often",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Traffic metadata is visible to the server and its operator. Rating: likelihood 3 x impact 2 = 6 (High). Likelihood 3: the server always sees routing data. Impact 2: no content, but social graph exposed.",
+                  "mitigation": "Minimize logging and retention, document as accepted residual risk, and consider sealed sender.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                },
+                {
+                  "id": "0e63796b-7273-43bd-bdb7-954838882c62",
+                  "title": "WebSocket flooding and message spam",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "An attacker opens many connections or sends floods to exhaust the server. Rating: likelihood 3 x impact 1 = 3 (Medium). Likelihood 3: trivial to attempt. Impact 1: temporary degradation.",
+                  "mitigation": "Rate limiting, authentication before connection, and connection caps.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -586,88 +319,6 @@
             "visible": true,
             "shape": "process",
             "zIndex": 1,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "46ef6192-9a61-47f7-ab0a-d76ac2ee4a42"
-                },
-                {
-                  "group": "right",
-                  "id": "affc2fd1-06d2-425d-bbb3-3b2568996b8a"
-                },
-                {
-                  "group": "bottom",
-                  "id": "039d1fa5-7200-43dc-945a-2532d4ba3194"
-                },
-                {
-                  "group": "left",
-                  "id": "51f31e6f-a719-47ea-b997-401cd9b183cd"
-                }
-              ]
-            },
             "id": "612da517-05e3-4d40-8306-1e5f015e96de",
             "data": {
               "type": "tm.Process",
@@ -675,10 +326,37 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isTrustBoundary": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "fc0e87d5-0dc9-4ce8-b7f0-c659f6aaf928",
+                  "title": "Attacker registers as another user",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Registration of an existing identifier without proof of ownership. Rating: likelihood 2 x impact 2 = 4 (Medium). Likelihood 2: depends on registration checks. Impact 2: contacts may message the wrong party until verified.",
+                  "mitigation": "Verified registration, one identity per account, and key verification between users.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                },
+                {
+                  "id": "77b5e66e-e2e5-4a1b-9343-d3c675e59e83",
+                  "title": "Prekey exhaustion",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "An attacker drains a victim's one-time prekeys by repeated fetches. Rating: likelihood 3 x impact 2 = 6 (High). Likelihood 3: unauthenticated fetches are easy to script. Impact 2: sessions fall back to weaker prekey use.",
+                  "mitigation": "Authenticate and rate-limit fetches, add last-resort prekeys, and replenish automatically.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -695,10 +373,12 @@
                 "text": "Server DB (PostgreSQL)"
               },
               "topLine": {
+                "stroke": "#333333",
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
+                "stroke": "#333333",
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
@@ -706,88 +386,6 @@
             "visible": true,
             "shape": "store",
             "zIndex": 1,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "1c01bbf2-46eb-4401-b5e4-3eb4439b8230"
-                },
-                {
-                  "group": "right",
-                  "id": "a66ca4f2-5334-47a3-9043-23d66b7c1023"
-                },
-                {
-                  "group": "bottom",
-                  "id": "1b7b7a52-e119-4317-96ca-667e8346924b"
-                },
-                {
-                  "group": "left",
-                  "id": "408c677f-d33e-4cbf-9ad0-0a7083f496fa"
-                }
-              ]
-            },
             "id": "a58b0ac2-01f6-4258-9f5a-6d73edc4d8cf",
             "data": {
               "type": "tm.Store",
@@ -795,14 +393,28 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
               "isTrustBoundary": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "d5590e21-acc7-4353-8604-4b024739b267",
+                  "title": "Full database dump reveals data",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "An attacker or insider dumps the server database. Rating: likelihood 2 x impact 2 = 4 (Medium). Likelihood 2: databases are targeted. Impact 2: only ciphertext, public keys and metadata exposed.",
+                  "mitigation": "Store ciphertext only, encrypt disks, least-privilege DB access, and an automated test that the dump holds no plaintext.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -819,10 +431,12 @@
                 "text": "Attachment store"
               },
               "topLine": {
+                "stroke": "#333333",
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
+                "stroke": "#333333",
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
@@ -830,88 +444,6 @@
             "visible": true,
             "shape": "store",
             "zIndex": 1,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "7bee3bc0-79e3-4b5e-a327-49403f3ec1fd"
-                },
-                {
-                  "group": "right",
-                  "id": "5f74bf87-24ea-4e50-9142-ef962454d9f2"
-                },
-                {
-                  "group": "bottom",
-                  "id": "fbe8ad07-a6e9-4ee7-98af-5049ada94d17"
-                },
-                {
-                  "group": "left",
-                  "id": "81b3cd60-3a3d-4b6e-9d28-f904650127c8"
-                }
-              ]
-            },
             "id": "f8195c2c-d224-4724-98ad-d5ef7c101f84",
             "data": {
               "type": "tm.Store",
@@ -952,29 +484,52 @@
               "name": "User input and display",
               "description": "",
               "outOfScope": false,
-              "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": true,
               "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "842bb99a-f126-4ced-bfe5-72ae1c6c6751"
+              "threats": [
+                {
+                  "id": "448209a3-4731-4f36-bc21-b07eebdac097",
+                  "title": "Local user impersonation on an unlocked device",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Someone with physical access opens the app and sends messages as the user. Rating: likelihood 2 x impact 2 = 4 (Medium). Likelihood 2: phones are lost or borrowed. Impact 2: limited to one account until noticed.",
+                  "mitigation": "App lock (biometric or PIN) and auto-lock timeout.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "da768035-8929-4d82-9e31-c9ae9d23f956",
+                  "title": "Key-change warning ignored by user",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "A contact's identity key changes and the user clicks through the warning, accepting an attacker's key. Rating: likelihood 2 x impact 2 = 4 (Medium). Likelihood 2: users habitually dismiss warnings. Impact 2: one conversation exposed.",
+                  "mitigation": "Blocking warning, safety-number re-verification prompt, and a clear key-changed marker in the chat.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
               ]
             },
+            "id": "fa16d64b-a6dd-4631-95a8-e24136708dec",
             "labels": [
               {
+                "position": 0.5,
                 "attrs": {
                   "label": {
                     "text": "User input and display"
                   }
-                },
-                "position": 0.5
+                }
               }
             ],
-            "id": "fa16d64b-a6dd-4631-95a8-e24136708dec",
             "source": {
               "cell": "8db1eb52-5669-4bc6-a7cf-98d15b3b135d"
             },
@@ -1006,30 +561,65 @@
               "name": "Ciphertext send and receive",
               "description": "",
               "outOfScope": false,
-              "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": true,
               "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "842bb99a-f126-4ced-bfe5-72ae1c6c6751",
-                "16b9a615-376c-4a69-bdc1-eeb58576c22f"
+              "threats": [
+                {
+                  "id": "ce386a6c-3aa8-40bd-aa0f-6d7af2072352",
+                  "title": "Ciphertext modified in transit or at rest",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "An attacker or the server alters stored or relayed ciphertext. Rating: likelihood 1 x impact 2 = 2 (Low). Likelihood 1: TLS 1.3 plus AEAD make undetected change very hard. Impact 2: message is lost or corrupted, not read.",
+                  "mitigation": "AEAD authentication in the Signal Protocol, TLS 1.3, and tampered-ciphertext tests.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                },
+                {
+                  "id": "6cafd6cd-64a8-4983-b91b-ebdea4fbea20",
+                  "title": "Replay or reordering of messages",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An attacker resends or reorders captured messages over the WebSocket. Rating: likelihood 2 x impact 2 = 4 (Medium). Likelihood 2: network position is needed but easy once held. Impact 2: confusing or duplicated messages.",
+                  "mitigation": "Double Ratchet message counters, reject duplicates, TLS 1.3.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                },
+                {
+                  "id": "11280711-44cd-4f59-a80c-732aec3bb516",
+                  "title": "Remote session reset abused to desync or downgrade",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "An attacker triggers or forges a session reset to break sessions or force re-keying. Rating: likelihood 1 x impact 2 = 2 (Low). Likelihood 1: reset requests require authentication. Impact 2: denial of a chat, not disclosure.",
+                  "mitigation": "Authenticate reset requests, rate-limit them, and re-verify keys after a reset.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
               ]
             },
+            "id": "98dccdff-ec57-44f6-9f13-8e438656b75c",
             "labels": [
               {
+                "position": 0.5,
                 "attrs": {
                   "label": {
                     "text": "Ciphertext send and receive"
                   }
-                },
-                "position": 0.5
+                }
               }
             ],
-            "id": "98dccdff-ec57-44f6-9f13-8e438656b75c",
             "source": {
               "cell": "f4635c11-b6bf-4a4f-b75d-1cf5a68d70ae"
             },
@@ -1061,30 +651,52 @@
               "name": "Prekey upload and fetch",
               "description": "",
               "outOfScope": false,
-              "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": true,
               "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "842bb99a-f126-4ced-bfe5-72ae1c6c6751",
-                "16b9a615-376c-4a69-bdc1-eeb58576c22f"
+              "threats": [
+                {
+                  "id": "45ce6189-9285-464e-ba9f-0921170a30e6",
+                  "title": "Key server swaps a contact's identity key (MITM)",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "A malicious or compromised key server returns attacker keys in a prekey bundle. Rating: likelihood 2 x impact 3 = 6 (High). Likelihood 2: the server is untrusted by design. Impact 3: full loss of confidentiality for that chat.",
+                  "mitigation": "Safety-number or QR verification, key-change warning, and key transparency as a stretch goal.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "862ab636-8c06-4d83-9ed3-eed54d6ca72b",
+                  "title": "Forged or malformed prekeys uploaded",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An attacker uploads bad signed prekeys for a victim account. Rating: likelihood 1 x impact 3 = 3 (Medium). Likelihood 1: upload needs authentication. Impact 3: poisons future sessions.",
+                  "mitigation": "Authenticate uploads, verify prekey signatures against the identity key, and validate formats.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
               ]
             },
+            "id": "88f6abc7-3918-4a1d-9606-53291fa95d0b",
             "labels": [
               {
+                "position": 0.5,
                 "attrs": {
                   "label": {
                     "text": "Prekey upload and fetch"
                   }
-                },
-                "position": 0.5
+                }
               }
             ],
-            "id": "88f6abc7-3918-4a1d-9606-53291fa95d0b",
             "source": {
               "cell": "f4635c11-b6bf-4a4f-b75d-1cf5a68d70ae"
             },
@@ -1116,30 +728,52 @@
               "name": "Encrypted file upload and download",
               "description": "",
               "outOfScope": false,
-              "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": true,
               "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "842bb99a-f126-4ced-bfe5-72ae1c6c6751",
-                "16b9a615-376c-4a69-bdc1-eeb58576c22f"
+              "threats": [
+                {
+                  "id": "c31c8fbf-dba6-4650-af60-7da7de74ed04",
+                  "title": "Attachment key leaked or reused",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "A file key is reused across files or exposed outside the encrypted message. Rating: likelihood 1 x impact 3 = 3 (Medium). Likelihood 1: a random key per file is part of the design. Impact 3: that file's content exposed.",
+                  "mitigation": "Random AES-256-GCM key per file, key sent only inside the encrypted message, no key logging.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                },
+                {
+                  "id": "003c1f09-8fe0-4548-9b83-583d9399a9dc",
+                  "title": "Attachment blob replaced or deleted",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An attacker with store access swaps or removes an encrypted blob. Rating: likelihood 2 x impact 2 = 4 (Medium). Likelihood 2: storage access paths are broader than the database. Impact 2: integrity loss, no disclosure.",
+                  "mitigation": "Hash and GCM tag verified on download, with the digest carried in the encrypted message.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
               ]
             },
+            "id": "e949e894-9977-409f-8aad-536121454441",
             "labels": [
               {
+                "position": 0.5,
                 "attrs": {
                   "label": {
                     "text": "Encrypted file upload and download"
                   }
-                },
-                "position": 0.5
+                }
               }
             ],
-            "id": "e949e894-9977-409f-8aad-536121454441",
             "source": {
               "cell": "f4635c11-b6bf-4a4f-b75d-1cf5a68d70ae"
             },
@@ -1176,27 +810,39 @@
               "name": "Message read and write",
               "description": "",
               "outOfScope": false,
-              "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": true,
               "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
+              "threats": [
+                {
+                  "id": "7f055c8f-f3ac-40e1-aa6d-b4f81fecaa50",
+                  "title": "Stolen device exposes the local database",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Malware or theft reveals stored message history. Rating: likelihood 2 x impact 3 = 6 (High). Likelihood 2: lost phones are common. Impact 3: full message history.",
+                  "mitigation": "SQLCipher with the key in the Android Keystore or non-extractable Web Crypto keys, plus disappearing messages.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ]
             },
+            "id": "94c77fbd-c313-49b0-bb70-285bedec97b0",
             "labels": [
               {
+                "position": 0.5,
                 "attrs": {
                   "label": {
                     "text": "Message read and write"
                   }
-                },
-                "position": 0.5
+                }
               }
             ],
-            "id": "94c77fbd-c313-49b0-bb70-285bedec97b0",
             "source": {
               "cell": "f4635c11-b6bf-4a4f-b75d-1cf5a68d70ae"
             },
@@ -1228,27 +874,25 @@
               "name": "Store and read ciphertext",
               "description": "",
               "outOfScope": false,
-              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": true,
               "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
+              "threats": []
             },
+            "id": "e3668a30-a990-4f48-92ea-735598f324e4",
             "labels": [
               {
+                "position": 0.5,
                 "attrs": {
                   "label": {
                     "text": "Store and read ciphertext"
                   }
-                },
-                "position": 0.5
+                }
               }
             ],
-            "id": "e3668a30-a990-4f48-92ea-735598f324e4",
             "source": {
               "cell": "719d15e5-8c1d-4501-83ee-96f90902efe2"
             },
@@ -1280,27 +924,25 @@
               "name": "Store and read public keys",
               "description": "",
               "outOfScope": false,
-              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": true,
               "isEncrypted": true,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
+              "threats": []
             },
+            "id": "015a927d-21f3-4eb5-9b7d-1f258dc9d68d",
             "labels": [
               {
+                "position": 0.5,
                 "attrs": {
                   "label": {
                     "text": "Store and read public keys"
                   }
-                },
-                "position": 0.5
+                }
               }
             ],
-            "id": "015a927d-21f3-4eb5-9b7d-1f258dc9d68d",
             "source": {
               "cell": "612da517-05e3-4d40-8306-1e5f015e96de"
             },
@@ -1314,6 +956,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 19
   }
 }
