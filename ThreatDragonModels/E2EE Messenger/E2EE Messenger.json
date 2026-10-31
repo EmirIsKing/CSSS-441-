@@ -22,13 +22,16 @@
           {
             "position": {
               "x": 340,
-              "y": 60
+              "y": 50
             },
             "size": {
               "width": 112.5,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Sender"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -123,7 +126,7 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Sender",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -143,6 +146,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Recipient"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -237,7 +243,7 @@
             "zIndex": 2,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Recipient",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -257,6 +263,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Message Server"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -351,7 +360,7 @@
             "zIndex": 3,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Message Server",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -374,6 +383,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Key Server"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -468,7 +480,7 @@
             "zIndex": 4,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Key Server",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -491,6 +503,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Client App"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -585,7 +600,7 @@
             "zIndex": 5,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Client App",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -608,6 +623,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Local DB"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -705,7 +723,7 @@
             "zIndex": 6,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Local DB",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -729,6 +747,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Server DB"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -826,7 +847,7 @@
             "zIndex": 7,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Server DB",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -850,6 +871,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Attachment Store"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -947,7 +971,7 @@
             "zIndex": 8,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Attachment Store",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
